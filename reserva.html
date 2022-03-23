@@ -55,6 +55,7 @@
                 </div>
                 <div class="col-1">
                     <img src="img/cinema-chair.png" alt="" class="w-100 img-fluid" >
+                    <p class="">A</p>
                 </div>
                 <div class="col-1">
                     <img src="img/cinema-chair.png" alt="" class="w-100 img-fluid" >
@@ -165,12 +166,12 @@
                 <div class="col ">
                     <form> 
                         <label for="disabledSelect" class="form-label">Registro</label>
-                        <select id="disabledSelect" class="form-select">
-                        <option selected>Pelicula</option>
+                        <select id="pelicula" class="form-select">
+                        <option selected></option>
                         <option value="1">Batman</option>
                         <option value="2">El Justiciero</option>
                         <option value="3">Uncharded: Fuera del Mapa</option>
-                        <option value="4s">Belfast</option>
+                        <option value="4">Belfast</option>
                      </select>
                     </form>
                 </div>
@@ -179,7 +180,7 @@
                 <div class="col ">
                     <form> 
                         <label for="exampleInputEmail1" class="form-label">Cantidad</label>
-                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="number" class="form-control" id="cantidad" aria-describedby="emailHelp">
                     </form>
                 </div>
             </div>
@@ -187,13 +188,13 @@
                 <div class="col ">
                     <form> 
                         <label for="disabledSelect" class="form-label">Asiento</label>
-                        <select id="disabledSelect" class="form-select">
-                        <option selected>Asiento</option>
-                        <option value="1">Preferencial</option>
-                        <option value="2">General</option>
+                        <select id="asiento" class="form-select">
+                        <option selected></option>
+                        <option id="preferencial" value="1">Preferencial</option>
+                        <option id="general" value="2">General</option>
                      </select>
                     </form>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button id="boton" type="submit" class="btn btn-primary">Enviar</button>
                 </div>
             </div>                
         </div>
