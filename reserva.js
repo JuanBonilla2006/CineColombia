@@ -37,12 +37,12 @@ boton.addEventListener("click",function(evento){
     let pelicula=document.getElementById("pelicula").value
 
     if(asiento=="general"){
-        let precio=18050
+        let precio=18000
         let total=precio*cantidad
         alert("Sus entradas valen"+total)
     
     }else{
-        let precio=26050
+        let precio=26000
         let total=precio*cantidad
         alert("Sus entradas valen"+total)
     }
